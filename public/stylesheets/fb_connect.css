@@ -1,0 +1,78 @@
+/*    HTTP Host:  static.ak.fbcdn.net                                          */
+/*    Generated:  January 30th 2009 2:14:31 PM PST                             */
+/*      Machine:  10.16.140.101                                                */
+/*       Source:  Local Cache                                                  */
+/*     Location:  rsrc:enlge7l2:en_US:/html/css/connect/fb_connect.css         */
+/*       Locale:  en_US                                                        */
+/*         Path:  css/connect/fb_connect.css                                   */
+
+
+.fb_resetstyles,
+.fb_resetstyles a,
+.fb_resetstyles td{padding:0px;border:0px;margin:0px;overflow:visible;background:none;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;text-align:left;text-decoration:none;text-indent:0;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;}
+.fbmlIframe{width:100%;}
+fb\:serverfbml{display:block;}
+fb\:video{width:600px;height:480px;}
+fb\:fbml{display:none;visibility:collapse;}
+fb\:fbml.FB_ElementReady{display:block;visibility:visible;}
+fb\:profile-pic{display:inline-block;zoom:1;*display:inline;width:50px;height:50px;background-image:url(http://static.ak.fbcdn.net/pics/t_silhouette.jpg);background-repeat:no-repeat;}
+fb\:profile-pic[facebook-logo="true"]{background-image:url(http://static.ak.fbcdn.net/pics/t_silhouette_logo.gif);}
+fb\:profile-pic[size="small"]{width:100px;height:63px;background-image:url(http://static.ak.fbcdn.net/pics/s_silhouette.jpg);}
+fb\:profile-pic[size="small"][facebook-logo="true"]{background-image:url(http://static.ak.fbcdn.net/pics/s_silhouette_logo.gif);}
+fb\:profile-pic[size="normal"]{width:200px;height:126px;background-image:url(http://static.ak.fbcdn.net/pics/d_silhouette.gif);}
+fb\:profile-pic[size="normal"][facebook-logo="true"]{background-image:url(http://static.ak.fbcdn.net/pics/d_silhouette_logo.gif);}
+fb\:profile-pic[size="square"]{width:50px;height:50px;background-image:url(http://static.ak.fbcdn.net/pics/q_silhouette.gif);}
+fb\:profile-pic[size="square"][facebook-logo="true"]{background-image:url(http://static.ak.fbcdn.net/pics/q_silhouette_logo.gif);}
+fb\:profile-pic.fb_profile_pic_rendered,
+fb\:profile-pic[facebook-logo="true"].fb_profile_pic_rendered{display:inline;width:auto;height:auto;background-image:none;display:inline;}
+a.FB_Link{color:#1b7bdd;text-decoration:none;}
+a.FB_Link:hover{color:#2fa600;text-decoration:underline;}
+a.FB_Link img{border:medium none;}
+.FB_ElementConditionFalse{display:none;}
+.fb_popupContainer{position:absolute;top:0px;left:0px;z-index:2147483647;}
+.fb_popup{position:absolute;left:-10000px;top:-10000px;}
+.fb_tosIFrame{width:100%;border:solid 0px #ccc;height:258px;overflow:hidden;float:left;}
+.fb_tosIFrame html{height:auto;}
+.fb_feedIFrame{width:600px;height:auto;float:left;}
+.fb_shareIFrame{width:650px;height:400px;float:left;}
+.fb_permission_iframe{width:100%;}
+table.fb_pop_dialog_table{border-collapse:collapse;margin:auto;table-layout:fixed;width:470px;}
+td.fb_pop_topleft, td.fb_pop_topright, td.fb_pop_bottomleft, td.fb_pop_bottomright{height:10px;overflow:hidden;padding:0px!important;padding:5px;width:10px!important;width:0px;}
+td.fb_pop_topleft{background-image:url('http://static.ak.fbcdn.net/imgs/pop_dialog_top_left.png')!important;background-image:none;filter:none!important;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.ak.fbcdn.net/imgs/pop_dialog_top_left.png', sizingMethod='crop');}
+td.fb_pop_topright{background-image:url('http://static.ak.fbcdn.net/imgs/pop_dialog_top_right.png')!important;background-image:none;filter:none!important;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.ak.fbcdn.net/imgs/pop_dialog_top_right.png', sizingMethod='crop');}
+td.fb_pop_bottomleft{background-image:url('http://static.ak.fbcdn.net/imgs/pop_dialog_bottom_left.png')!important;background-image:none;filter:none!important;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.ak.fbcdn.net/imgs/pop_dialog_bottom_left.png', sizingMethod='crop');}
+td.fb_pop_bottomright{background-image:url('http://static.ak.fbcdn.net/imgs/pop_dialog_bottom_right.png')!important;background-image:none;filter:none!important;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.ak.fbcdn.net/imgs/pop_dialog_bottom_right.png', sizingMethod='scale');}
+td.fb_pop_border{background-image:url('http://static.ak.fbcdn.net/imgs/pop_dialog_border.png')!important;background-image:none;filter:none!important;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://static.ak.fbcdn.net/imgs/pop_dialog_border.png', sizingMethod='scale');}
+.fb_noshadow table td.fb_pop_topleft,
+.fb_noshadow table td.fb_pop_topright,
+.fb_noshadow table td.fb_pop_bottomleft,
+.fb_noshadow table td.fb_pop_bottomright,
+.fb_noshadow table td.fb_pop_border{background-image:none !important;filter:none !important;}
+td.fb_pop_content{background-color:white;padding:0px;vertical-align:top;}
+td.fb_pop_content h2{background:#6d84b4;border:1px solid #3b5998;color:white;font-size:14px;font-weight:bold;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;margin:0px;position:relative;overflow:hidden;letter-spacing:normal;line-height:normal;padding:0px;text-align:left;zoom:1;}
+.fb_dialog_icon{margin:5px;float:left;width:16px;height:16px;background:#6D84B4 url(http://static.ak.fbcdn.net/images/icons/favicon.gif) no-repeat scroll center;}
+a.fb_dialog_cancel_button{outline-color:invert;outline-style:none;outline-width:medium;text-decoration:none;position:absolute;right:4px;top:7px;width:18px;color:#6D84B4;background:transparent url(http://static.ak.fbcdn.net/images/fbconnect/connect_icon_remove.gif) no-repeat scroll 3px 0px;}
+a.fb_dialog_cancel_button:hover{background:transparent url(http://static.ak.fbcdn.net/images/fbconnect/connect_icon_remove.gif) no-repeat scroll -10px 0px;}
+.fb_dialog_loading_spinner{position:absolute;width:28px;height:8px;background:#6d84b4 url(http://static.ak.fbcdn.net/images/loaders/indicator_white_small.gif) no-repeat 0px 0px;top:8px;right:25px;display:none;}
+.fb_dialog_loading{display:block;}
+td.fb_pop_content h2 span{display:block;padding:5px 10px 5px 10px;}
+td.fb_pop_content{background:#fff;}
+.fb_dialog_content{background:#fff;border:solid 0px #ccc;padding:0px;margin:0px;border:1px solid #555;border-top-width:0px;overflow:hidden;}
+.fb_dialog_content.fb_loading iframe{visibility:collapse;}
+.fb_dialog_content.fb_loading{background-image:url(http://static.ak.fbcdn.net/images/loaders/indicator_blue_small.gif);background-position:center;}
+.fb_pop_content_container{width:auto;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;}
+td.fb_pop_content .fb_dialog_body{border-bottom:1px solid #ccc;padding:10px;}
+td.fb_pop_content .fb_dialog_summary{background:#f2f2f2;padding:8px 10px 8px 10px;border-bottom:1px solid #ccc;}
+a.fbconnect_login_button{cursor:pointer;}
+.fb_confirmation_stripes{background:transparent url(http://static.ak.fbcdn.net/images/confirmation_stripes.gif) repeat scroll 0 0;height:15px;}
+.fb_dialog_content .fb_dialog_buttons{background:#F2F2F2 none repeat scroll 0 50%;border-top:1px solid #CCCCCC;padding:8px 0 8px 8px;text-align:right;z-index:20;}
+.fb_dialog_content .fb_confirmation_content{font-size:11px;line-height:13px.
+line-height:15px;margin:15px 30px 10px;width:auto;}
+.fb_inputbutton, .fb_inputsubmit{margin:0 10px 0 0;background-color:#3B5998;border-color:#D9DFEA #0E1F5B #0E1F5B #D9DFEA;border-style:solid;border-width:1px;color:#FFFFFF;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size:11px;padding:2px 15px 3px;text-align:center;}
+.fb_inputaux{background:#f0f0f0;color:#000;border-top-color:#e7e7e7;border-right-color:#666;border-bottom-color:#666;border-left-color:#e7e7e7;}
+html .fb_share_button{display:-moz-inline-block;display:inline-block;padding:1px 20px 0 5px;height:15px;width:40px;border:1px solid #d8dfea;background:url(http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif?2:26981) no-repeat top right;}
+html a.fb_share_button:visited{color:#3b5998;text-decoration:none;outline:none;}
+html a.fb_share_button:hover{color:#fff;border-color:#295582;background:#3b5998 url(http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif?2:26981) no-repeat top right;text-decoration:none;}
+
+
+#bootloader_css_connect_fb_connect_css { height: 42px; }

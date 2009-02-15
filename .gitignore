@@ -1,0 +1,7 @@
+tmp
+log
+vendor
+*~
+\#*#
+TAGS
+.DS_Store

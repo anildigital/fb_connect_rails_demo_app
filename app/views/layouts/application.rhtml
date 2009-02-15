@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html
+xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml">
+
+<head> <meta http-equiv="content-type" content="text/html; charset=UTF-8"> <title>The Run Around</title> <%=
+javascript_include_tag "connect", "base", "application" %> <%= stylesheet_link_tag "style", "fb_connect" %> </head> <body>
+
+<!-- 
+<div id="header"> <div class="header_content">
+
+<a href="/home/index" class="title"> <img src="/images/runaround_logo.gif"></a>
+
+<% if session[:user_id].blank? %>
+
+<div class="account">Hello Guest | <a href="/home/register">Register for an account</a> </div> <% else %>
+
+<div id="header-account"><b>Welcome, <%if session[:fb_connected] %><fb:name uid="loggedinuser" useyou="false"
+capitalize="true" /><%else %><%= @user.name %><%end%></b> <%if [:fb_connected]%> <div id="header-profilepic"> <fb:profile-pic
+uid="loggedinuser" width="32" height="32" linked="true" /> </div> <% end%> <div id="header-account"> <div
+class="account_links"><a href="/home/account">Account Settings</a> |
+
+ <% if session[:fb_connected] %> <a href="#" onclick="FB.Connect.logoutAndRedirect('/home/logout'); return false;" ><img
+id="fb_logout_image" src="/images/facebook_icon.gif" border="0" /> Sign Out </a> <% else %> <a href="/home/logout">Logout</a>
+<% end %>
+
+ <br/></div></div></div>
+
+<% end %> </div> </div>
+
+<% if flash[:error].blank? %> <div> <%= flash[:error] %> </div> <% end %> -->
+
+
+<div id="header">
+	<div class="header_content">
+  	<a class="title" href="/home/index"><img src="/images/runaround_logo.gif"/></a>
+	<% if !session[:user_id].blank?%>
+	<% if session[:fb_connected]%>
+	<div id="header-profilepic">
+		<fb:profile-pic uid="loggedinuser" width="32" height="32" linked="true" />
+	</div>
+	<% end %>
+	
+	<div id="header-account"><b>Welcome, <%if session[:fb_connected]%> <fb:name uid="loggedinuser" useyou="false" capitalize="true" linked="false"/><%else%> <%= @user.name %><%end%></b>
+		<div class="account_links"><a href="/home/account">Account Settings</a> |
+			
+			<%if session[:fb_connected]%>
+			 <a onclick="FB.Connect.logoutAndRedirect('/home/logout'); return false;" href="#"><img
+			id="fb_logout_image" src="/images/facebook_icon.gif" border="0" />Logout of Facebook</a>
+			<%else%>
+ <a href="/home/logout">Logout</a>
+			<%end%>
+			<br/>	
+		</div>
+	</div>
+	
+	<% else %>
+ 	<div class="account">Hello Guest | <a href="/home/register">Register for an account</a></div>
+	<% end %>
+	</div>
+</div>
+
+<%= yield %>
+
+<div class="footer_stuff">This is an awesome running app running on Rails!</div>
+
+<script src="/javascripts/FeatureLoader.js" type="text/javascript"></script> </div> </div>
+
+<script type="text/javascript"> FB.init("<%= FB_CONNECT_KEY %>", "/fb_connect/xd_receiver.htm"); <% if session[:fb_connected]
+%> facebook_onload(true); <% else %> facebook_onload(false); <% end %> <%if !session[:onload_js].blank? %> <%=
+session[:onload_js] %>; <%= session[:onload_js] = nil %> <% end %> </script>
+
+<script src="fb_connect/fbconnect.js" type="text/javascript"></script>
+
+<div id="authenticity_token" authenticity_token="<%= form_authenticity_token %>" ></div>
+
+</body> </html>

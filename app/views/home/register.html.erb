@@ -1,0 +1,55 @@
+<div class="body_content">
+
+<!-- Eventually do CSSification -->
+<div class="register">
+<div class="login_sector">
+<h2>Do you use Facebook?</h2>
+ Use Facebook to register for The Run Around:<br/><br/> 
+
+<fb:login-button onlogin="refresh_page()" ></fb:login-button>
+
+</div>
+<div class="login_sector_fb">
+<h2>Register</h2>
+<form method="post" action="process_register">
+<table>
+  <tbody><tr>
+    <td>
+      <label for="username" id="label_username">Username:
+    </label></td>
+    <td>
+      <input type="text" name="username" value="" size="20" class="inputtext" id="username"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label for="password" id="label_password">Password:</label>
+    </td>
+    <td>
+      <input type="password" name="password" value="" size="20" class="inputtext" id="password"/>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="email" id="label_email">Email:</label>
+      </td>
+      <td>
+        <input type="text" name="email" value="" size="20" class="inputtext" id="email"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="name" id="label_name">Name:</label>
+      </td>
+      <td>
+        <input type="text" name="name" value="" size="20" class="inputtext" id="name"/>
+        <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+      </td>
+  </tr>
+</tbody></table>
+<input type="hidden" value="1" name="save"/>
+<input type="submit" style="margin-left: 80px;" value="Register" class="inputsubmit"/>
+</form>
+</div>
+</div>
+</div>

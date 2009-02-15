@@ -1,0 +1,35 @@
+<div class="body_content">
+  <img class="welcome_img" src="/images/runaround_image.jpg"/>
+  <div class="welcome_dialog">
+    <h3>Welcome to the Run Around</h3>
+    <p>This is a simple site where you can log your runs and chart progress on your workout routine.</p>
+    <div class="clearfix">
+      <form method="post" action="/home/login">
+        <div class="login_sector">
+          <div class="login_prompt">
+          <b>Login</b>:</div>
+          <div class="clearfix">
+            <label>Username:</label><input type="text" value="" size="20" class="inputtext" name="username"/>
+          </div> 
+          <div class="clearfix">
+            <label>Password:</label>
+            <input type="password" value="" size="20" class="inputtext" name="password"/>
+            <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+          </div>
+		  <% if !flash[:error].blank? %>
+		  <div class="clearfix" style="color:red;margin-top:5px;">
+			<%= flash[:error] %>
+		  </div>
+		  <% end %>
+          <input type="submit" name="submit" value="Login" class="inputsubmit" id="submit"/>
+        </div>
+        <div class="login_sector_fb">
+          <div class="login_prompt">Or <b>login</b> with Facebook:</div>
+          <fb:login-button onlogin="refresh_page()" ></fb:login-button>
+        </div>
+      </form>
+    </div>
+    <div class="signup_container"> Don't have an account? <a href="/home/register">Register Now!</a> 
+    </div>
+  </div>
+</div>

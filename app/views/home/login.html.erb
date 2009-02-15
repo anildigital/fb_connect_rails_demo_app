@@ -1,0 +1,25 @@
+<div class="body_content"><a href="/home/register">Register a new account now!</a> Or try again below:
+<form method="post" action="/home/login">
+  <div id="loginbox">
+    <table>
+      <tbody><tr>
+        <td>
+          <label for="username" id="label_username">Username:</label>
+          </td><td>
+          <input type="text" name="username" value="" size="20" class="inputtext" id="username"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password" id="label_password">Password:</label>
+          </td><td>
+          <input type="password" name="password" size="20" class="inputtext" id="password"/>
+          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+        </td>
+      </tr>
+    </tbody></table>
+
+    <input type="submit" value="Login" name="doquicklogin" onclick="this.disabled=true;" class="inputsubmit"/>
+
+  </div>
+</form></div>
