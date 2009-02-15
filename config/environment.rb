@@ -73,10 +73,11 @@ Rails::Initializer.run do |config|
   # Please note that observers generated using script/generate observer need to have an _observer suffix
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 end
-
-
-
-FB_CONNECT_KEY = "3abec7938b2c673f5d94f1f763903b88"
-
-
 require 'ruby-debug'
+
+if RAILS_ENV == "production"
+  FB_CONNECT_KEY = "77c05168ce96cd686a9f38db204f9bc1"
+else
+  FB_CONNECT_KEY = "3abec7938b2c673f5d94f1f763903b88"
+end
+
