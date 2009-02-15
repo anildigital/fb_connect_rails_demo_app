@@ -42,7 +42,6 @@ class HomeController < ApplicationController
     redirect_to :action => "index"
   end
 
-
   def login
     if !params[:username].blank? or !params[:password].blank? and request.post?
       user = User.find(:first, :conditions => ["username = ?", params[:username]])
@@ -98,6 +97,12 @@ class HomeController < ApplicationController
       register_feed_form_js(run)
     end
     @user = User.find(session[:user_id], :include => [:runs])
+    redirect_to :action => "index"
+  end
+  
+  
+  def delete_run
+    Run.delete(params[:run_id])
     redirect_to :action => "index"
   end
   

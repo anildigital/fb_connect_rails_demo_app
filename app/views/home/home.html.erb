@@ -61,7 +61,7 @@
         <td><% if !each_run.date.blank? %> <%= each_run.date.time.strftime("%m/%d/%Y") %><% else%><% end %></td>
         <td><%= each_run.miles %> miles</td>
         <td><%= each_run.route %></td>
-        <td><img src="/images/delete.png" /></td>
+        <td><a href="/home/delete_run?run_id=<%= each_run.id.to_s %>"><img src="/images/delete.gif" /></td>
       </tr>
       <% end %>
     </tbody>
